@@ -7,3 +7,7 @@ __pycache__/
 # Ambiente virtual
 .venv/
 venv/
+# Arquivos locais
+*.pdf
+prints/
+Link_Repositorio.txt

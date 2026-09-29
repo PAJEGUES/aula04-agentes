@@ -1,5 +1,4 @@
 # Arquivo: tabela.py
-# Exercício 5: estimativa do tamanho da tabela do agente dirigido por tabela.
 import math
 
 BITS_POR_PERCEPCAO = 10

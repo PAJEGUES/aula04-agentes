@@ -1,5 +1,4 @@
 # Arquivo: aspirador.py
-# Exercício 4: agente baseado em objetivos e agente baseado em utilidade no mundo do aspirador de pó.
 # Estado do mundo: (posição do aspirador, sujeira em A, sujeira em B)
 
 ACOES = ['Esquerda', 'Direita', 'Aspirar']
@@ -28,7 +27,7 @@ def atualizar_estado(estado, percepcao):
     return (local, sujo_a, sujo_b)
 
 
-# ---------------- Agente baseado em objetivos ----------------
+# Agente baseado em objetivos
 
 def objetivo_atingido(estado):
     """Teste de objetivo: os dois quadrados limpos."""
@@ -65,7 +64,7 @@ class AgenteObjetivo:
         return acao
 
 
-# ---------------- Agente baseado em utilidade ----------------
+# Agente baseado em utilidade
 
 PREMIO_LIMPO = 10     # cada quadrado limpo vale pontos a cada passo
 CUSTO_MOVER = 1       # cada movimento gasta energia
@@ -102,7 +101,7 @@ class AgenteUtilidade:
         return acao
 
 
-# ---------------- Simulação ----------------
+# Simulação
 
 def simular(agente, mundo, passos=6):
     """mundo = {'local': 'A', 'A': 'Sujo', 'B': 'Sujo'}"""
