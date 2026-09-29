@@ -1,0 +1,9 @@
+# Arquivo: .gitignore (na raiz do projeto, com o ponto na frente)
+# PyCharm
+.idea/
+# Python
+__pycache__/
+*.pyc
+# Ambiente virtual
+.venv/
+venv/
